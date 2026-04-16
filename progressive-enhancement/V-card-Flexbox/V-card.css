@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: flex;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+}
+
+.v-card {
+width: 50vw; /* Ensures it takes half the screen width */
+height: 100vh;
+display: flex;
+flex-direction: column;
+position: relative;
+border: 1px solid black;
+}
+
+.top-part {
+flex-direction: column; 
+padding: 15px;
+justify-content: start; 
+  background: linear-gradient(to      right, coral, #6a00ff);
+  color: white;
+  position: relative;
+  flex: 1;
+}
+.middle-part {
+  padding: 15px;
+align-content: end; 
+flex-direction: column; 
+flex: 2;
+font-size: 20px;
+}
+
+.middle-part p {
+  margin-bottom: 10px;
+}
+
+.bottom-part {
+  padding: 15px;
+justify-content: start; 
+flex-direction: row; 
+flex: 1;
+background: linear-gradient(to right, #6a00ff, coral);
+color: white;
+  position: relative;
+}
+
+.circular-portrait { 
+
+  position: absolute;
+  top: 5%; /* Adjust to overlap top and middle sections */
+  right: 0%;
+  float: right;
+  transform: none;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid white; 
+
+}
+.circular-portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+footer {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+
+.social-icons {
+  justify-content: center;
+align-content: center; 
+  display: flex;
+  gap: 10px; 
+}
+.social-icons img{
+  max-width: 40px;
+  max-height: 40px;
+
+}
+
+
