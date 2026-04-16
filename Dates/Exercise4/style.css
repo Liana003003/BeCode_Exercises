@@ -1,0 +1,80 @@
+body {
+  background: #d3d3d3;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  gap: 60px;
+}
+
+/* Calendar card */
+.left-section {
+  width: 240px;
+  text-align: center;
+}
+
+/* Top & bottom red bars */
+.top,
+.bottom {
+  background: #b33a3a;
+  color: white;
+  font-weight: bold;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.top {
+  font-size: 32px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top: 3px solid #888;
+  border-left: 3px solid #888;
+  border-right: 3px solid #888;
+}
+
+.bottom {
+  font-size: 32px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom: 3px solid #888;
+  border-left: 3px solid #888;
+  border-right: 3px solid #888;
+}
+
+/* Middle section */
+.middle {
+  padding: 20px 0;
+  background: white;
+  align-items: center;
+  border-left: 3px solid #888;
+  border-right: 3px solid #888;
+}
+
+.date {
+  font-size: 80px;
+  color: #888;
+  font-weight: bold;
+  text-align: center;
+}
+
+.month {
+  font-size: 60px;
+  color: #888;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Time display */
+.time {
+  font-size: 120px;
+  font-weight: bold;
+  color: #555;
+}
+
+.seconds {
+  font-size: 70px;
+}
