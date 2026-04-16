@@ -1,6 +1,6 @@
 # JavaScript Exercises 
 
-This repository contains a collection of JavaScript exercises I completed while learning the fundamentals of the language. The exercises are organized by topic, with each folder focusing on a specific concept.
+This folder contains a collection of JavaScript exercises I completed while learning the fundamentals of the language. The exercises are organized by topic, with each folder focusing on a specific concept.
 
 ## Repository Structure
 
