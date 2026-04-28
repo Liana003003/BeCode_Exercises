@@ -22,7 +22,7 @@ This folder contains a series of JavaScript exercises organized by topic. Each s
 - Classes (ES6 and OOP basics)
 
 
-![Screenshot of the javascript folder structure](./screenshots/Javascript_structure.jpg)
+![Screenshot of the javascript folder structure](./screenshots/Javascript_structure.JPG)
 
 
 ---
