@@ -21,32 +21,85 @@ This folder contains a series of JavaScript exercises organized by topic. Each s
 - Objects
 - Classes (ES6 and OOP basics)
 
+
+![Screenshot of the javascript folder structure](./screenshots/Javascript_structure.jpg)
+
+
 ---
 
 ### 2. `progressive-enhancement`
 This folder focuses on HTML and CSS, with an emphasis on layout techniques and responsive design.
 
-It contains three main exercises:
+It contains three main exercises:<br><br>
 
-- **The Chinese Farmer**
-  - Practice of basic HTML structure and CSS styling
+<div style="display: flex; align-items: center;">
 
-- **V-Card**
-  - A personal card layout built in two versions:
-    - One using **CSS Grid**
-    - One using **Flexbox**
-  - The goal was to understand and compare both layout systems
+  <div style="flex: 1; padding-right: 20px;">
+    <ul>
+      <li><strong>The Chinese Farmer</strong></li>
+      <ul>
+      <li>Practice of basic HTML structure and CSS styling</li>
+      </ul>
+    </ul>
+  </div>
 
-- **Responsive Layout Exercise**
-  - A layout with three paragraphs that adapts to screen size:
-    - **Large screens:** 3 columns  
-    - **Medium screens:** 2 columns  
-    - **Small screens:** 1 column (stacked rows)
+  <div style="flex: 1;">
+    <img src="./screenshots/the-chinese-farmer.png" width="100%" />
+  </div>
+
+</div><br><br>
+
+<div style="display: flex; align-items: center;">
+
+  <div style="flex: 1; padding-right: 20px;">
+    <ul>
+      <li><strong>V-Card</strong></li>
+        <ul>
+          <li>A personal card layout built in two versions:</li>
+            <ul>
+              <li>One using <strong>CSS Grid</strong></li>
+              <li>One using <strong>Flexbox</strong></li>
+            </ul>
+          <li>The goal was to understand and compare both layout systems</li>
+        </ul>
+    </ul>
+  </div>
+
+<div style="flex: 1;">
+    <img src="./screenshots/V-card.png" width="100%" />
+</div>
+</div><br><br>
+
+<div style="display: flex; align-items: center;">
+
+  <div style="flex: 1; padding-right: 20px;">
+    <ul>
+      <li><strong>Responsive Layout Exercise</strong></li>
+        <ul>
+          <li>A layout with three paragraphs with colored background that adapts to screen size:</li>
+            <ul>
+              <li><strong>Large screens: </strong>3 columns, blue background</li>
+              <li><strong>Medium screens: </strong>2 columns, green background</li>
+              <li><strong>Small screens: </strong>1 column, red background (stacked rows)</li>
+            </ul>
+        </ul>
+    </ul>
+  </div>
+
+<div style="flex: 1;">
+    <img src="./screenshots/Responsive-big.png" width="100%" />
+    <img src="./screenshots/Responsive-medium.png" width="80%" />
+    <img src="./screenshots/Responsive-small.png" width="60%" />
+</div>
+</div><br><br>
+
 
 ---
 
 ### 3. `dates`
-This folder contains exercises related to working with dates in JavaScript, helping reinforce understanding of time-based logic and built-in Date methods.
+This folder contains exercises related to working with dates in JavaScript, helping reinforce understanding of time-based logic and built-in Date methods.<br>
+
+![Screenshot of date and time project](./screenshots/Date&Time.png)<br>
 
 ---
 
